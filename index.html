@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <title>Agencia</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <section class="main">
+            <div class="center">
+                <div class="menu">
+                    <div class="logo-menu">
+                        <a name="topo"><img src="images/Agencia Eletro.png" /></a>
+                    </div>
+                    <div class="items-menu">
+                        <a href="#topo">Início</a>
+                        <a href="#porque">Por que nós?</a>
+                        <a class="contact-btn" href="#contato">Entre em Contato</a>
+                    </div>
+                    <div class="items-menu-mobile">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                        <div class="menu-mobile">
+                            <a href="#topo">Início</a>
+                            <a href="#porque">Por que nós?</a>
+                        </div>
+                    </div>
+                </div><!--menu-->
+
+                <div class="mockup">
+                    <h1>Promova eletrônicos tops aos seus clientes</h1>
+                    <br/>
+                    <p>E veja um mundo mais tecnologico</p>
+                    <br/>
+                    <img src="images/eletro.png" />
+                </div><!--mockup-->
+
+            </div><!--center-->
+        </section><!--main-->
+
+
+        <section class="marcas">
+            <div class="center">
+                <img src="images/xiamoi.png" />
+                <img src="images/samsung.png" />
+                <img src="images/LOGO3.png" />
+                <img src="images/aplle.png" />
+                <img src="images/hyperx (2).png" />
+
+            </div><!--center-->
+        </section><!--marcas-->
+
+
+        <section class="porque-nos">
+            <div class="center">
+                <a name="porque"></a>
+                <h2>Por Que Nós?</h2>
+                <p>Uma experiência incrível para nossos clientes.</p>
+
+                <div class="diferenciais">
+                    <div class="box-diferenciais">
+                        <img src="images/icon1.svg" />
+                        <h3>Produtos</h3>
+                        <p>A empresa de eletrônicos oferece uma ampla variedade de produtos de alta qualidade, incluindo smartphones, laptops e tablets. Um dos destaques da linha de smartphones</p>
+                    </div>
+                    <div class="box-diferenciais">
+                        <img src="images/icon2.svg" />
+                        <h3>Atendimento</h3>
+                        <p>O atendimento ao cliente é um aspecto crucial na experiência de compra de um produto. É importante para uma empresa de eletrônicos fornecer um atendimento de qualidade para garantir a satisfação do cliente e fidelizá-lo.</p>
+                    </div>
+                    <div class="box-diferenciais">
+                        <img src="images/icon3.svg" />
+                        <h3>Frete gratis!</h3>
+                        <p>Oferecer frete grátis é uma estratégia de marketing que pode ser atraente para os clientes e ajudar a aumentar as vendas.</p>
+                    </div>
+                </div><!--diferenciais-->
+
+
+
+            </div><!--center-->
+        </section><!--porquenos-->
+
+        <section class="cta">
+
+            
+             <h2>Vamos Começar Sua Compra?</h2>
+             <h4>Confira agora preços e produtos disponiveis na loja.</h4>
+             <a target="_blank" href="https://www.kabum.com.br">Clique aqui</a>
+            
+
+        </section><!--cta-->
+
+        <section class="beneficios">
+            <div style="max-width: 1280px;" class="center">
+                <div class="lista-beneficios">
+                    <h1>Benefícios De comprar conosco!</h1>
+                    <br/>
+                    <p><img src="images/checklist.svg" /><span>Garantia em todos os produtos da loja.</span></p>
+                    <p><img src="images/checklist.svg" /><span>Atendimento rapido.</span></p>
+                    <p><img src="images/checklist.svg" /><span>Produtos de ultima geração.</span></p>
+                    <p><img src="images/checklist.svg" /><span>Álem de contar que os preços são os melhores.</span></p>
+                </div>
+                <div class="img-beneficios">
+                    <img src="images/mecmec.jpeg" />
+                </div>
+            </div><!--center-->
+        </section><!--beneficios-->
+
+        <section class="contato">
+            <h1>Entre em Contato</h1>
+            <div style="max-width: 900px;" class="center">
+                
+                <form method="post">
+                    <input type="text" placeholder="Seu Nome..." />
+                    <input type="email" placeholder="Seu e-mail" />
+                    <textarea placeholder="Sua Mensagem..."></textarea>
+                    <input type="submit" name="acao" value="Enviar!"
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div style="max-width: 1280px;" class="center">
+                <div class="text-footer">
+                    <p>Todos os direitos reservados.</p>
+                </div>
+                <div class="items-menu">
+                    <a href="#topo">Início</a>
+                        <a href="#porque">Por que nós?</a>
+                        <a class="contact-btn" href="#contato" name="contato">Entre em Contato</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="jquery.js"></script>
+        <script src="slick.min.js"></script>
+        <script>
+                $('.container-slider').slick({
+                dots: true,
+                arrows:false,
+                speed:1000,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                pauseOnHover:false,
+                responsive: [
+                            {
+                              breakpoint: 768,
+                              settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                              }
+                            }],
+                });
+        </script>
+        <script>
+            var menuBtn = document.querySelector('.items-menu-mobile i');
+            menuBtn.addEventListener('click',()=>{
+                let itemsMenu = document.querySelector('.menu-mobile');
+                if(itemsMenu.classList.contains('show')){
+                    itemsMenu.classList.remove('show');
+                    itemsMenu.classList.add('hide');
+                }else{
+                    itemsMenu.classList.remove('hide');
+                    itemsMenu.classList.add('show');
+                }
+                
+            });
+        </script>
+        
+    </body>
+</html>
